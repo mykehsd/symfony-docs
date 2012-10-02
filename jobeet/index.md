@@ -116,7 +116,7 @@ git commit -m 'Initial Jobeet commit'
 ```
 
 
-=== See you Tomorrow
+### See you Tomorrow
 Well, time is over for today! Even if we have not yet started talking about Symfony2, we have setup a solid development environment, we have talked about web development best practices, and we are ready to start coding.
 
 Tomorrow, we will reveal what the application will do and talk about the requirements we need to implement during the tutorial.
