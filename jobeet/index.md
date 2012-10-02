@@ -83,8 +83,8 @@ php composer.phar create-project symfony/framework-standard-edition ~/jobeet 2.1
 cd ~/jobeet
 ```
 
-* Step 4: Launch Symfony
-  PHP 5.4 includes it's own webserver that we will be using to develop the website.  
+* Step 4: Launch Symfony  
+  PHP 5.4 includes it's own webserver that we can use while we develop the site.  This is a great alternative to setting up apache and managing config files and permissions  
 ```
 cd ~/jobeet/web
 php -S localhost:8000
