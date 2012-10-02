@@ -7,7 +7,7 @@ But you want more. You want to learn all the nitty gritty details of Symfony2 ap
 
 Today, we will take the time to describe the requirements of the Jobeet project with some basic mockups.
 
-=== The project pitch
+### The project pitch
 Everybody is talking about the crisis nowadays. Unemployment is rising again.
 
 I know, Symfony2 developers are not really concerned and that's why you want to learn Symfony2 in the first place. But it is also quite difficult to find good Symfony2 developers.
@@ -22,7 +22,7 @@ Does it already exist? As as user, you will find a lot of job boards like Jobeet
 
 And who said it will take less than 24 hours to develop with Symfony2? Well, we'd better start right now!
 
-=== The project user stories
+### The project user stories
 Before diving into the code head-first, let's describe the project a bit more. The following sections describe the features we want to implement in the first version/iteration of the project with some simple stories.
 
 The Jobeet website has four kind of users:
@@ -37,7 +37,7 @@ The project has two applications: the frontend (stories F1 to F7, below), where 
 The backend application is secured and requires credentials to access.
 
 
-== Story F1: On the homepage, the user sees the latest active jobs
+#### Story F1: On the homepage, the user sees the latest active jobs
 When a user comes to the Jobeet website, he sees a list of active jobs. The jobs are sorted by category and then by publication date (newer jobs first). For each job, only the location, the position, and the company are displayed.
 
 For each category, the list only shows the first 10 jobs and a link allows to list all the jobs for a given category (Story F2).
@@ -46,24 +46,24 @@ On the homepage, the user can refine the job list (Story F3), or post a new job 
 
 ![F1](http://www.symfony-project.org/images/jobeet/1_2/02/mockup_homepage.png)
 
-== Story F2: A user can ask for all the jobs in a given category
+#### Story F2: A user can ask for all the jobs in a given category
 When a user clicks on a category name or on a "more jobs" link on the homepage, he sees all the jobs for this category sorted by date.
 
 The list is paginated with 20 jobs per page.
 
 ![F2](http://www.symfony-project.org/images/jobeet/1_2/02/mockup_category.png)
 
-== Story F3: A user refines the list with some keywords
+#### Story F3: A user refines the list with some keywords
 
 The user can enter some keywords to refine his search. Keywords can be words found in the location, the position, the category, or the company fields.
 
-== Story F4: A user clicks on a job to see more detailed information
+#### Story F4: A user clicks on a job to see more detailed information
 
 The user can select a job from the list to see more detailed information.
 
 ![F4](http://www.symfony-project.org/images/jobeet/1_2/02/mockup_job.png)
 
-== Story F5: A user posts a job
+#### Story F5: A user posts a job
 
 A user can post a job. A job is made of several pieces of information:
 
@@ -88,7 +88,7 @@ Each job post is online for 30 days (this is configurable by the admin - see Sto
 
 ![F5](http://www.symfony-project.org/images/jobeet/1_2/02/mockup_post.png)
 
-Story F6: A user applies to become an affiliate
+#### Story F6: A user applies to become an affiliate
 
 A user needs to apply to become an affiliate and be authorized to use the Jobeet API. To apply, he must give the following information:
 
@@ -99,7 +99,7 @@ The affiliate account must be activated by the admin (Story B3). Once activated,
 
 When applying, the affiliate can also choose to get jobs from a sub-set of the available categories.
 
-== Story F7: An affiliate retrieves the current active job list
+#### Story F7: An affiliate retrieves the current active job list
 
 An affiliate can retrieve the current job list by calling the API with his affiliate token. The list can be returned in the XML, JSON or YAML format.
 
@@ -107,21 +107,21 @@ The list contains the public information available for a job.
 
 The affiliate can also limit the number of jobs to be returned, and refine his query by specifying a category.
 
-== Story B1: An admin configures the website
+#### Story B1: An admin configures the website
 
 An admin can edit the categories available on the website.
 
-== Story B2: An admin manages the jobs
+#### Story B2: An admin manages the jobs
 
 An admin can edit and remove any posted job.
 
-== Story B3: An admin manages the affiliates
+#### Story B3: An admin manages the affiliates
 
 The admin can create or edit affiliates. He is responsible for activating an affiliate and can also disable one.
 
 When the admin activates a new affiliate, the system creates a unique token to be used by the affiliate.
 
-== See you Tomorrow
+## See you Tomorrow
 
 As for any web development, you never start coding the first day. You need to gather the requirements first and work on a mockup design. That's what we have done today.
 
