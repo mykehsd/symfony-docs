@@ -1,3 +1,6 @@
+Practical Symfony: Day 2
+========================
+
 We have not written a single line of PHP yet, but yesterday, we setup the environment, created an empty Symfony2 project, and made sure we started with some good security defaults. If you followed along, you have been looking at your screen delightedly since then, as it displays the beautiful default Symfony2 page for new applications.
 
 But you want more. You want to learn all the nitty gritty details of Symfony2 application development. So, let's resume our trip to Symfony2 development nirvana.
