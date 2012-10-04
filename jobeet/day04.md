@@ -28,7 +28,7 @@ As with every problem, there are nice solutions. For web development, the most c
 
 ![MVC](http://www.symfony-project.org/images/jobeet/1_2/04/mvc.png)
 
-Today, we will use the mockup defined in day 2 to customize the homepage and the job page. We will also make them dynamic. Along the way, we will tweak a lot of things in many different files to demonstrate the symfony directory structure and the way to separate code between layers.
+Today, we will use the mockup defined in day 2 to customize the homepage and the job page. We will also make them dynamic. Along the way, we will tweak a lot of things in many different files to demonstrate the Symfony2 directory structure and the way to separate code between layers.
 
 ### The Layout
 First, if you have a closer look at the mockups, you will notice that much of each page looks the same. You already know that code duplication is bad, whether we are talking about HTML or PHP code, so we need to find a way to prevent these common view elements from resulting in code duplication.
@@ -214,7 +214,7 @@ If the job does not exist in the database, we want to forward the user to a 404 
 
 === See you Tomorrow
 
-Today, we have described some design patterns used by symfony. Hopefully the project directory structure now makes more sense. We have played with the templates by manipulating the layout and the template files. We have also made them a bit more dynamic thanks to slots and actions.
+Today, we have described some design patterns used by Symfony2. Hopefully the project directory structure now makes more sense. We have played with the templates by manipulating the layout and the template files. We have also made them a bit more dynamic thanks to slots and actions.
 
 
 
